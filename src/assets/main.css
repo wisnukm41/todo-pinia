@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Golos Text', sans-serif;
+}
+
+.header {
+  text-align: center;
+  height: 80px;
+  background-color: #F6F1F1;
+  padding-top : 60px;
+}
+
+.header span {
+  font-size: 1.5rem;
+  transform: rotate(6deg);
+  display: inline-block;
+}
+
+.task-list{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.task{
+  border-radius: 10px;
+  margin: 10px 0;
+  min-height: 60px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #CCD5AE;
+}
+
+.material-icons{
+  cursor: pointer;
+}
+
+.new-task {
+  background-color: #F6F1F1;
+}
+
+.new-task form {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.new-task input {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+  width: 100%;
+  margin-right: 20px;
+  background-color: #fffff0;
+}
+
+.new-task button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #C7E8CA;
+}
+
+.new-task button:hover {
+  opacity: 0.5;
+}
